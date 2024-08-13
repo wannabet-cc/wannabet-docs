@@ -2,17 +2,18 @@ nick:
   name: Nick Brodeur
   title: Co-creator
   url: nickbrodeur.com
-  image_url:
+  image_url: https://i.imgur.com/Sfbunk9.jpg
   socials:
-    x:
-    farcaster:
+    x: https://twitter.com/nick_brodeur
+    farcaster: https://warpcast.com/ncale.eth
+    github: https://github.com/ncale
 
 limes:
   name: Dylan Brodeur
   title: Co-creator
-  url:
-  image_url:
+  url: https://dylanbrodeur.xyz/
+  image_url: https://i.seadn.io/gae/CsglYc_NZ0lHvdIHH9dXUpiAjL21jXvajIOaqRep64H76yzjsGjVa3z3KcZtNBPoeyuBizJywkWddxQ8t8gQB2sOjPny2WGFj4LEfg?w=500&auto=format
   socials:
-    x:
-    farcaster:
-    github:
+    x: https://twitter.com/limes_eth
+    farcaster: https://warpcast.com/limes.eth
+    github: https://github.com/enslimeseth
