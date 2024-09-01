@@ -3,12 +3,12 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "wannabet",
+  title: "Wannabet",
   tagline: "A simple, fully decentralized, p2p betting protocol",
   favicon: "img/wannabet.svg",
 
   // Set the production url of your site here
-  url: "https://s.com",
+  url: "https://docs.wannabet.cc",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -52,7 +52,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/replace.jpg",
     navbar: {
-      title: "wannabet",
+      title: "Wannabet",
       logo: {
         alt: "wannabet logo",
         src: "img/wannabet.svg",
@@ -60,16 +60,11 @@ const config: Config = {
       items: [
         {
           label: "Docs",
-          to: "/docs/overview",
+          to: "/docs/introduction",
           position: "left",
         },
-        // {
-        //   label: "Blog",
-        //   to: "/blog",
-        //   position: "left",
-        // },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/wannabet-cc",
           label: "GitHub",
           position: "right",
         },
@@ -82,12 +77,12 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Overview",
-              to: "/docs/overview",
+              label: "Introduction",
+              to: "/docs/introduction",
             },
             {
-              label: "Getting Started",
-              to: "/docs/getting-started",
+              label: "Names",
+              to: "/docs/names/motivation",
             },
           ],
         },
@@ -96,7 +91,7 @@ const config: Config = {
           items: [
             {
               label: "Telegram",
-              href: "https://s.com",
+              href: "https://t.me/wannabettt",
             },
             {
               label: "Twitter",
@@ -108,17 +103,13 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
               label: "GitHub",
               href: "https://github.com/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} wannabet`,
+      copyright: `Copyright © ${new Date().getFullYear()} Wannabet`,
     },
     prism: {
       theme: prismThemes.github,
