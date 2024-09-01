@@ -12,5 +12,5 @@ While there are existing options for making and taking bets with efficient marke
 
 ## Get Started
 
-- [Make a bet](/docs/guides/bet)
-- Make a profile
+- [Start betting](/docs/guides/bet)
+- [Make a profile with a wannabet.eth subname](/docs/guides/set-a-subname)
