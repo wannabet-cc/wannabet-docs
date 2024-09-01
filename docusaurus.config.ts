@@ -49,7 +49,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: "img/replace.jpg",
     navbar: {
       title: "Wannabet",
@@ -116,6 +115,20 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  plugins: [
+    function tailwindPlugin(context, options) {
+      return {
+        name: "tailwind-plugin",
+        configurePostCss(postcssOptions) {
+          // require("postcss-import"),
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
 };
 
 export default config;
